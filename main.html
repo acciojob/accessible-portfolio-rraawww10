@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1 role="heading">My Accessible Portfolio</h1>
 
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <img role="img" src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg" alt="A profile picture of the portfolio owner">
+
+    <p>A brief description of the portfolio owner and their work.</p>
+
+    <ul role="list">
+        <li role="listitem">Project 1: Accessible Website</li>
+        <li role="listitem">Project 2: Portfolio Design</li>
+        <li role="listitem">Project 3: E-commerce Application</li>
+    </ul>
 </body>
-
 </html>
